@@ -1,46 +1,48 @@
+* {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
 body {
-  background: black;
+  background-image: url(assets/background-tech.jpg);
+  background-size: cover;
   padding: 0 10%;
 }
 
-h1 {
-  color: greenyellow;
-  background-color: transparent;
+h1,
+h3 {
+  color: aqua;
   text-align: center;
-  font-size: 56px;
-  font-weight: 700;
 }
 
-h2 {
-  color: greenyellow;
-  text-align: center;
-  font-size: 32px;
-  font-weight: 700;
+h1 {
+  font-size: 5rem;
+}
+
+h3 {
+  margin-top: 5rem;
+  font-size: 3.2rem;
 }
 
 .navigation {
-  height: 400px;
-  background-color: transparent;
+  align-items: center;
+  height: 250px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .navigation a {
   position: relative;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  height: 100px;
-  background: greenyellow;
-  border: 2px solid greenyellow;
-  border-radius: 8px;
-  font-size: 19px;
-  color: black;
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 1px;
   text-align: center;
-  font-size: 32px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+  padding: 1rem 2.8rem;
+  background: aqua;
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem aqua;
+  font-size: 1.6rem;
+  color: #1c1c1c;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
 }
